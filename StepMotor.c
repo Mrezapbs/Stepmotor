@@ -8,7 +8,7 @@ StepMotorType FunctionalMotorStatus;
 void StepMotor_Config(void)
 {
 	FunctionalMotorStatus.StepMotor.CurrentCoil		= START_UP_STAGE;
-	FunctionalMotorStatus.StepMotor.OperationStage	= START_UP;
+	FunctionalMotorStatus.StepMotor.OperationStage		= START_UP;
 	FunctionalMotorStatus.StepMotor.MaxMinLimit		= DISABLE;
 	FunctionalMotorStatus.StepMotor.Position		= 0;
 	FunctionalMotorStatus.StepMotor.TotalSteps		= DEFAULT_TOTAL_NUM_OF_STEPS;
